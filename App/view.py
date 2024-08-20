@@ -49,8 +49,9 @@ def print_menu():
     print("Opciones:")
     print("1- Cargar Libros")
     print("2- Cargar Tags")
-    # TODO: Mods de Est-1, Est-2 y Est-3 en Lab 2
-    print("3- Cargar Booktags")
+    # TODO: Mods de Est-1 en el Lab 2, agregar opcion 3
+    print("3- Cargar Book-Tags!!!...")
+
     print("0- Salir")
 
 def load_books(control):

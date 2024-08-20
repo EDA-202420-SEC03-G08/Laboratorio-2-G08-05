@@ -131,15 +131,13 @@ def add_book_tag(catalog, booktag):
 # Funciones de consulta
 
 def book_size(catalog):
-    # TODO: Mods de Est-3 en el Lab 2
-    pass
-
-
+# TODO Mods de Est-3 en el Lab 2
+    return set.size(catalog["books"]
+                )
 def tag_size(catalog):
-    # TODO: Mods de Est-3 en el Lab 2
-    pass
-
+# TODO Mods de Est-3 en el Lab 2
+    return set.size(catalog["tags"])
 
 def book_tag_size(catalog):
-    # TODO: Mods de Est-3 en el Lab 2
-    pass
+# TODO Mods de Est-3 en el Lab 2
+    return set.size(catalog["book_tags"])
