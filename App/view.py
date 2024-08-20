@@ -86,8 +86,11 @@ def first_book(control):
     """
     Devuelve el primer libro del catalogo
     """
-    # TODO: Mods de Est-1 en el Lab 2
-    pass
+    first = logic.first_book(control)
+    return first
+    first = first_book(control)
+    print("Primer libro cargado:\n" + str(first) + "\n")
+
 
 
 def last_book(control):
