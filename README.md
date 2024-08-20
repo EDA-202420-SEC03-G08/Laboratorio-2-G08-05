@@ -31,11 +31,9 @@ This repository is part of the data structure and algorithms (#EDA) teaching fra
 
 The students edit this section to add their names, Uniandes emails, and specify which project functionality of the project they will implement.
 
-
-1. Student No. 1, Juan Fernando Reina Barreto, j.reina@uniandes.edu.co, Student No. 1 owned functionality.
-1. Student No. 2, Juan Sebastian Murillo Urrutia, j.murillou@uniandes.edu.co, Student No. 2 owned functionality.
-1. Student No. 3, Diego Alonso Bernal Rojas, da.bernalr1@uniandes.edu.co, Student No. 3 owned functionality.
-
+1. Student No. 1, Juan Sebastian Murillo Urrutia, j.murillou@uniandes.edu.co, Student No. 1 owned functionality.
+1. Student No. 2, Diego Alonso Bernal Rojas, da.bernalr1@uniandes.edu.co, Student No. 2 owned functionality.
+1. Student No. 3, Juan Fernando Reina Barreto, j.reina@uniandes.edu.co, Student No. 3 owned functionality.
 
 [Back to top](#sample-conflicts)
 
