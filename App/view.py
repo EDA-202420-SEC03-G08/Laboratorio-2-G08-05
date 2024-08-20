@@ -49,10 +49,9 @@ def print_menu():
     print("Opciones:")
     print("1- Cargar Libros")
     print("2- Cargar Tags")
-    # TODO: Mods de Est-1 en el Lab 2, agregar opcion 3
-
+    # TODO: Mods de Est-1, Est-2 y Est-3 en Lab 2
+    print("3- Cargar Booktags")
     print("0- Salir")
-
 
 def load_books(control):
     """
@@ -77,7 +76,9 @@ def load_books_tags(control):
     Cargar los Tags de libros
     """
     # TODO: Mods de Est-1 en el Lab 2
-    pass
+    booktags = logic.load_books_tags(control,
+                                        "GoodReads/book_tags-small.csv")
+    return booktags
 
 
 def first_book(control):
@@ -89,11 +90,11 @@ def first_book(control):
 
 
 def last_book(control):
-    # TODO: Mods de Est-2 en el Lab 2
+    # TODO: Mods de Est-3 en el Lab 2
     """
     Devuelve el último libro cargado
     """
-    pass
+    last = logic
 
 
 # Se crea el controlador asociado a la vista

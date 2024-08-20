@@ -69,16 +69,13 @@ def load_books(catalog, filename):
 
 
 def load_tags(catalog, filename):
-    """
-    Carga todos los tags del archivo y los agrega a la lista de tags
-    """
-    tags_file = os.path.join(data_dir, filename)
-    input_file = csv.DictReader(open(tags_file, encoding="utf-8"))
-    catalog["tags"] = set.new_set()
-    for tag in input_file:
-        set.add_element(catalog["tags"], tag)
-    return tag_size(catalog)
-
+    # TODO: Mods de Est-1 y Est-2, Est-3 en el Lab 2
+    tf = os.path.join(data_dir, filename)
+    input_file = csv.DictReader(open(tf, encoding="utf-8"))
+    catalog["model"] = create_book_tag_list(catalog["model"])
+    for booktag in input_file:
+        add_book_tag(catalog, booktag)
+    return book_tag_size(catalog)
 
 def load_books_tags(catalog, filename):
     """
@@ -106,12 +103,14 @@ def last_book(catalog):
 # Funciones para la manipulacion de los datos 
 
 def add_book_tags_file(catalog, booktagsfile):
+    
     """
-    Esta funcion guardar los booktags provenientes del archivo CSV.
+    Esta función guardar los booktags provenientes del archivo CSV.
     """
-    # TODO: Mods de Est-1, Est-2 y Est-3 en el Lab 2
-    pass
-
+    # TODO: Mods de Est-1 y Est-2, Est-3 en el Lab 2
+    bt = set.load_set(set.new_set(), booktagsfile)
+    catalog["book_tags"] = bt
+    return catalog
 
 def create_book_tag_list(catalog):
     """
